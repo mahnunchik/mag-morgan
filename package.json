@@ -1,0 +1,30 @@
+{
+  "name": "mag-morgan",
+  "version": "0.0.1",
+  "description": "morgan adapted for use with mag logger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahnunchik/mag-morgan.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "mag",
+    "logger",
+    "morgan"
+  ],
+  "author": {
+    "name": "Eugeny Vlasenko",
+    "email": "mahnunchik+mag@gmail.com",
+    "url": "http://mahnunchik.tumblr.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "morgan": "^1.3.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.0"
+  }
+}
