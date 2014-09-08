@@ -1,1 +1,10 @@
 language: node_js
+deploy:
+  provider: npm
+  email: mahnunchik@gmail.com
+  api_key:
+    secure: isdN0ObD7/uGW5SAA2WkxwUpizb63nOzgIBv/u1GkiGOZlcupwOmcpkEpjXuRc9QULI2ahY7O+/ssUiKgp6BfOswynQk13MSw14cO7zLY/6dFyQj6iOunZ/l9N5pleg7qc/HEgupvrh2se9rSLYM6bsm1yQ8qTBmpM4pPuvNqww=
+  on:
+    tags: true
+    repo: mahnunchik/mag-morgan
+    all_branches: true
