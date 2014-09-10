@@ -1,6 +1,6 @@
 {
   "name": "mag-morgan",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "morgan adapted for use with mag logger",
   "repository": {
     "type": "git",
