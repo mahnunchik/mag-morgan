@@ -1,6 +1,6 @@
 {
   "name": "mag-morgan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "morgan adapted for use with mag logger",
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "mag-stream": "^0.9.0",
     "morgan": "^1.3.0"
   },
   "devDependencies": {
