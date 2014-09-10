@@ -21,8 +21,13 @@ module.exports = function(namespace, format, options) {
 
   options = options || {};
 
+  // force set buffer to false
+  options.buffer = false;
+
   options.stream = {
     write: function(message) {
+      // fix new line
+      message = message.replace(/\n$/, '');
       stream.write({
         message: message,
         severity: 6,
