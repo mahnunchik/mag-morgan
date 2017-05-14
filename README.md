@@ -1,5 +1,7 @@
 # mag-morgan
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/mag-morgan.svg)](https://greenkeeper.io/)
+
 [Mag](https://github.com/mahnunchik/mag) is the streaming logger for NodeJS.
 
 `mag-morgan` is [morgan](https://github.com/expressjs/morgan) adapted for use with [mag](https://github.com/mahnunchik/mag) logger.
