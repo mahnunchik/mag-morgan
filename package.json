@@ -23,7 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "mag-stream": "^0.9.0",
-    "morgan": "^1.3.0"
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
     "jshint": "^2.5.0"
